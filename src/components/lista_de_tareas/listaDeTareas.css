@@ -1,0 +1,10 @@
+.lista-de-tareas{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: 90vh;
+  border: 3px solid rgb(164, 144, 144);
+  align-items: center;
+  position: relative;
+}

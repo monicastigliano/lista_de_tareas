@@ -1,0 +1,88 @@
+.caja-input{
+  width: 50vw;
+  margin: 5px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid #48ABFE;
+}
+
+input{
+  width: 50%;
+  height: 2rem;
+  border: hidden;
+  background: none;
+  border-bottom: 1px solid rgb(164, 144, 144);
+  margin: 5px;
+}
+
+
+
+input::placeholder{
+  color: blueviolet;
+}
+
+.boton-guardar{
+  background: #FEE058;
+  border-radius: 6px;
+  margin-right: 4px;
+}
+
+.boton-cancelar{
+  background: #F91D88;
+  border-radius: 6px;
+}
+
+
+.btn-agregar{
+  cursor: pointer;
+  display: flex;
+  font-size: 2rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border: hidden;
+  background-color: transparent;
+}
+
+.btn-agregar:hover{
+  cursor: pointer;
+  background-color: #48ABFE;
+  color: #fff;
+}
+
+@media screen and (max-width: 650px){
+  input::placeholder{
+    color: red;
+    font-size: 10px;
+  }
+  .boton-guardar {
+    width: 30%;
+  }
+  .boton-cancelar{
+    width: 30%;
+  }
+  imput{
+    width: 25%;
+  }
+}
+@media screen and (max-width: 580px){
+  input::placeholder{
+    color: rgb(68, 255, 0);
+    font-size: 8px;
+  }
+  .boton-guardar {
+    width: 30%;
+    padding: 1px;
+  }
+  .boton-cancelar{
+    width: 30%;
+    padding: 1px;
+  }
+  imput{
+    width: 20%;
+  }
+}

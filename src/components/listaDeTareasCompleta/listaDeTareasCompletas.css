@@ -1,0 +1,61 @@
+
+
+.tareaCompleta{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url('./img/fondo-festivo.svg');
+  background-repeat: no-repeat;
+  block-size: content;
+  align-items: center;
+}
+.felicitacion{
+  overflow: hidden;
+  width: 90%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.felicitacion img{
+  width: 70%;
+  height: 70%;
+}
+.felicitacion p{
+  width: 70%;
+  color: #7B37D4;
+  font: 1.5em sans-serif;
+  margin: 5px;
+  text-align: center;
+}
+.botonVaciarLista {
+  border: 2px solid #48ABFE;
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 10px;
+  border-radius: 6px;
+  background: transparent;
+}
+
+.botonVaciarLista:hover{
+  background: #48ABFE;
+  color: #fff;
+}
+.caja-botones{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (max-width:1111px){
+  p{
+    font: 1em sans-serif;
+  }
+ }
+ @media (max-width:843px){
+  p{
+  font: .5em sans-serif;
+  }
+}
